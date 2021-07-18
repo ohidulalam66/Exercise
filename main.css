@@ -71,15 +71,19 @@ main styles
 .poster {
     display: flex;
 }
+
+.left-info {
+    z-index: 2;
+}
+
 .left-info h1 {
-    width: 814px;
-    height: 340px;
-    font-size: 200px;
+    /* width: 814px;
+    height: 340px; */
+    font-size: 163px;
     font-weight: 600;
     margin: 31px 0px 42px 0px;
     letter-spacing: -2px;
     line-height: 177px;
-    z-index: 1;
 }
 .left-info p {
     width: 600px;
@@ -104,7 +108,10 @@ main styles
 }
 .right-image {
     width: 300px;
+    z-index: 1;
 }
+
+
 
 /* propular-exercise */
 
@@ -189,12 +196,12 @@ main styles
     top: 7px;
     right: 43px;
 }
-.mix-grid .rollar {
+.mix-grid .roller {
     width: 321px;
     height: 341px;
     position: absolute;
-    top: 570px;
-    left: 280px;
+    top: 61%;
+    left: 25%;
 }
 .mix-grid h1 {
     font-weight: 500;

@@ -6,10 +6,14 @@
 
 * {
     margin: 0;
-    /* box-sizing: border-box; */
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     color: #FFFFFF;
     background: #000000;
+}
+body {
+    width: 100%;
 }
 .container {
     width: 1348px;
@@ -72,10 +76,12 @@ main styles
 
 .poster {
     display: flex;
+    position: relative;
+}
+.left-info {
+    width: 60%;
 }
 .left-info h1 {
-    width: 814px;
-    height: 340px;
     font-size: 200px;
     font-weight: 600;
     margin: 31px 0px 42px 0px;
@@ -84,8 +90,6 @@ main styles
     z-index: 1;
 }
 .left-info p {
-    width: 600px;
-    height: 58px;
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 50px;
@@ -105,7 +109,12 @@ main styles
     margin-left: 30px;
 }
 .right-image {
-    width: 300px;
+    width: 40%;
+}
+.right-image img{
+    width: 10%;
+    position: absolute;
+    right: 50px;
 }
 
 /* popular-exercise */
@@ -191,7 +200,7 @@ main styles
     top: 7px;
     right: 43px;
 }
-.mix-grid .rollar {
+.mix-grid .roller {
     width: 321px;
     height: 341px;
     position: absolute;
@@ -287,7 +296,7 @@ footer h1 {
     color: #DD2A7B;
 }
 .fa-youtube:hover {
-    color: #FF0000;
+    color: #ff0000;
 }
 .fa-twitter-square:hover {
     color: #00a2ed;
