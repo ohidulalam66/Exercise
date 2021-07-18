@@ -11,7 +11,7 @@
     color: #FFFFFF;
     background: #000000;
 }
-.conteinar {
+.container {
     width: 1348px;
     padding: 60px 55px 0px 120px;
 }
@@ -108,12 +108,12 @@ main styles
     width: 300px;
 }
 
-/* propular-exercise */
+/* popular-exercise */
 
-.propular-exercise {
+.popular-exercise {
     margin-top: 190px;
 }
-.propular-exercise .popular-info {
+.popular-exercise .popular-info {
     display: flex;
     justify-content: space-between;
 }
